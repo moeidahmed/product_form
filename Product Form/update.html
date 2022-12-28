@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Update</title>
+  </head>
+  <body onload="updataData()">
+    <div class="add">
+      <div>
+        <div>
+          <h>Product Name:</h><br />
+          <input type="text" class="input" id="uname" />
+        </div>
+        <div>
+          <h>Price:</h><br />
+          <input type="text" class="input" id="uprice" />
+        </div>
+      </div>
+      <div>
+        <p>Choose a new Image</p>
+        <p id="imgData" class="img"></p>
+        <input id="file" type="file" multiple />
+      </div>
+      <br />
+      <button class="submit" onclick="updatedResult()">Submit</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

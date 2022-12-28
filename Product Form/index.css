@@ -1,0 +1,173 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(24, 104, 49),
+    rgb(136, 146, 186)
+  );
+}
+.add {
+  width: 60%;
+  background-color: white;
+  border: 2px solid black;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin: auto;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.input {
+  width: 350px;
+  height: 25px;
+  padding-left: 5px;
+  margin: 10px;
+}
+.dinput {
+  width: 800px;
+  height: 150px;
+  padding-left: 5px;
+}
+.submit {
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 20px;
+}
+.update {
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 20px;
+}
+.delete {
+  color: white;
+  background-color: rgb(201, 20, 20);
+  padding: 10px;
+  border-radius: 20px;
+}
+.main {
+  width: 60%;
+  margin: auto;
+  margin-top: 100px;
+  font-size: 25px;
+  display: flex;
+}
+.create {
+  width: 60%;
+  background-color: white;
+  margin: auto;
+  margin-top: 50px;
+  border: 2px solid black;
+  box-shadow: 0 12px 24px rgb(0, 0, 0);
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.head {
+  margin-left: 10px;
+}
+.create1 {
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.edit {
+  color: white;
+  background-color: green;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+.display {
+  border: 1px solid blue;
+  margin: 10px;
+  padding: 10px;
+}
+
+.data {
+  display: flex;
+}
+
+.dis {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 10px;
+  line-height: 0.5;
+  box-shadow: 12px 12px 10px rgb(217, 207, 207);
+  border-radius: 10px;
+}
+.imageData {
+  width: 200px;
+  height: 150px;
+  margin-right: 20px;
+  box-shadow: 12px 12px 10px rgb(217, 207, 207);
+}
+
+.imageData1 {
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
+  margin-left: 150px;
+}
+.submit1 {
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 500px;
+  margin: 60px auto;
+  box-shadow: 0 12px 24px rgb(19, 17, 17);
+}
+.container h1 {
+  text-align: center;
+  color: white;
+}
+form {
+  background-color: white;
+  padding: 30px;
+}
+form .input-group {
+  margin-bottom: 15px;
+}
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+form input {
+  padding: 12px 20px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+/* .submit-btn {
+  width: 100%;
+  border: none;
+  background: rgb(37, 83, 3);
+  font-size: 18px;
+  color: white;
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
+} */
+
+.submit-btn {
+  width: 100%;
+  border: none;
+  background: rgb(37, 83, 3);
+  font-size: 18px;
+  color: white;
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
+}
+.img {
+  font-size: small;
+}
